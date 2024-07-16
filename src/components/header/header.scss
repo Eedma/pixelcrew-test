@@ -1,0 +1,29 @@
+.nav {
+    height: 80px;
+    width: 100vw;
+    background-color: $primary-color;
+
+    .nav-container {
+        display: flex;
+        height: 100%;
+        max-width: 1160px;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-logo {
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 40px;
+
+            .nav-link-item {
+                color: $white;
+                text-transform: capitalize;
+                font-weight: $bold;
+                font-size: $nav-font-size;
+            }
+        }
+    }
+}
