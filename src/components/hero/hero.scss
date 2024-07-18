@@ -1,0 +1,36 @@
+.background-image {
+    height: 100vh;
+    /* width: 100vw; */
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("/assets/hero-background.png");
+
+    .overlay-text {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        color: black;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        max-width: $max-width;
+        margin: auto;
+
+        h1 {
+            overflow-wrap: break-word;
+            font-size: 100px;
+            font-weight: 900;
+            span {
+                color: $primary-color;
+            }
+        }
+        p {
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+}

@@ -1,12 +1,12 @@
 .nav {
     height: 80px;
-    width: 100vw;
+    /* width: 100vw; */
     background-color: $primary-color;
 
     .nav-container {
         display: flex;
         height: 100%;
-        max-width: 1160px;
+        max-width: $max-width;
         margin: auto;
         align-items: center;
         justify-content: space-between;
